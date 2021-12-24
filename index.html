@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Yoram Ben-Ami</title>
+</head>
+
+<div class="collapse navbar-collapse" id="navbar">
+    <a class="nav-link" href="index.html">HOME</a>
+    <a class="nav-link" href="TRAVEL.html">TRAVEL</a>
+    <a class="nav-link" href="about.html">RESUME</a>
+    <a class="nav-link" href="CONTACT.html">CONTACT US</a>
+</div>
+    <h1>Yoram Ben-Ami</h1>
+    <h2>Computer Science student</h2>
+   
+    <img src="photo.png" alt="" width="250" height="200">
+    <h3>Please make sure to visit TRAVEL and RESUME in the NAVBAR </h2>
+    <h2>To change the background: <button> Click Me </button></h2>
+    <h1>write a review</h1>
+
+    <form action="" id="tweetForm">
+        <input type="text" name="username" placeholder="Enter a Name" required>
+        <input type="text" name="tweet" placeholder="Review" required>     
+        <select name="score" >
+            <option value="">Score -  Enter a number between 1-5</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        
+        <button>Post Review</button>
+    </form>
+
+    <h2>Reviews:</h2>
+    <ul id="tweets">
+    </ul>
+
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
